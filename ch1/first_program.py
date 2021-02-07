@@ -1,0 +1,6 @@
+print('hello world')
+name = raw_input('what is your name?')
+print("hello, " + name)
+print("the length of your name is " + str(len(name)))
+age = raw_input("what is your age?")
+print("you will be " + str(int(age)+1) + " in a year")
